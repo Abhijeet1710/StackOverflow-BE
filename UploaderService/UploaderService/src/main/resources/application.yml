@@ -11,3 +11,8 @@ cloudinary:
     api_secret: hxngZteAws6EBrRBQCRFH3sX5TY
     api_key: 241786325775626
     cloud_name: dcqsdevvh
+
+eureka:
+    client:
+        service-url:
+            defaultZone: http://localhost:9000/eureka/
