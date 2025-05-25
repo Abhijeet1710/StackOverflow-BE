@@ -1,0 +1,13 @@
+spring.application.name: UploaderService
+
+server.servlet.context-path: /api/v1/upload
+server.port: 9010
+
+CLOUDINARY_URL: cloudinary://241786325775626:hxngZteAws6EBrRBQCRFH3sX5TY@dcqsdevvh
+
+cloudinaryFolderName: StackOverflow_Media
+
+cloudinary:
+    api_secret: hxngZteAws6EBrRBQCRFH3sX5TY
+    api_key: 241786325775626
+    cloud_name: dcqsdevvh
