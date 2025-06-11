@@ -1,0 +1,22 @@
+spring.application.name: AuthService
+
+server.servlet.context-path: /api/v1/auth
+server.port: 9020
+
+jwtSecret: sdcascascadcsdcsdcsacvtghdrb541s5dC123132asd
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/StackOverflowDB
+    username: postgres
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka/
